@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label, input {
+    display: block;
+    line-height: 40px ;
+   outline: none;
+   font-size: 15px;
+   width: 100%;
+}
+
+form{
+    width: 500px;
+    background-color: rgba(150, 198, 212, 0.1);
+    padding: 30px;
+    margin: 50px auto;
+}
+
+button[type = "submit"]{
+    margin-top: 20px;
+    border: 1px solid rgb(44, 10, 10);
+    background: #f3e853;
+    color: rgb(44, 10, 10);
+}
+input[type = "file"]::-webkit-file-upload-button{
+    display: block;
+    border: 1px solid rgb(44, 10, 10);
+    background: #f3e853;
+    height: 30px;
+    color: rgb(44, 10, 10);
+
+}
+
+  /* body{
+      margin: 50px;
+
+  }   */
+
+  #formulario{
+  width: 45%;
+  float: left;
+  }
+  #usuarios{
+    width: 55%;
+    float: left;
+  }
+
+  table{
+background-color: rgba(150, 198, 212, 0.1);
+width: 90%;
+margin: 50px auto;
+padding-right: 10px;
+text-align: center;
+
+  }
+
+  tr{
+      line-height: 50px;
+  }
+  
+  tr#titulo{
+    font-weight: bold;
+}
+
+a{
+    font-weight: bold;
+    color: rgb(92, 46, 46);
+}
+h2{
+    padding: 30px; 
+    background-color: rgba(150, 198, 212, 0.1);
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 70px;
+}
+
+nav{
+    background-color:  #f3e853;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden;
+    padding-top: 10px;
+   
+}
+ul {
+   
+    float: right;
+}
+li{
+    color: rgb(44, 10, 10);
+}
+h1{
+    font-weight: bold;
+    color: rgb(92, 46, 46);
+    font-size: 25px;
+    margin-left: 50px;
+   
+}
